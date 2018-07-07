@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_light"
+    android:backgroundTint="@android:color/background_light"
+    android:backgroundTintMode="src_atop"
+    android:drawingCacheQuality="high"
+    android:focusableInTouchMode="true"
+    android:foregroundTintMode="screen"
+    tools:ignore="Overdraw">
+
+    <ImageButton
+        android:id="@+id/imageButtonSaveCompoundPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/button_save_compound_picture"
+        android:onClick="ButtonClick"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextImageTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/button_save_compound_picture" />
+
+    <TextView
+        android:id="@+id/textViewImageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/label_image_title"
+        android:text="@string/label_image_title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextImageTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:allowUndo="true"
+        android:ems="10"
+        android:enabled="true"
+        android:hint="@string/hint_image_title"
+        android:inputType="textUri"
+        android:maxLength="64"
+        android:scrollbars="none"
+        android:singleLine="true"
+        android:soundEffectsEnabled="true"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonSaveCompoundPicture"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewImageTitle" />
+
+</android.support.constraint.ConstraintLayout>

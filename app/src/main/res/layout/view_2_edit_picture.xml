@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controller2EditPicture">
+
+    <ImageView
+        android:id="@+id/imageView2EditPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/content_description_imageview_2_edit_picture"
+        android:scaleType="matrix"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/imageView_moving_gadget"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/content_description_imageView_moving_gadget"
+        android:layerType="software"
+        android:scaleType="matrix"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2EditPicture"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2EditPicture"
+        app:layout_constraintStart_toStartOf="@+id/imageView2EditPicture"
+        app:layout_constraintTop_toTopOf="@+id/imageView2EditPicture"
+        app:srcCompat="@drawable/empty_gadget" />
+
+    <include
+        android:id="@+id/layout_menu_gadget_selection"
+        layout="@layout/view_2_edit_picture_gadget_menu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <include
+        android:id="@+id/layout_save_dialog"
+        layout="@layout/view_2_edit_picture_save_dialog"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

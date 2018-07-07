@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuitem_select_eotm"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="@string/menu_gallery_button_name"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuitem_share_eotm"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/menu_select_share_methode_button_name"
+        app:showAsAction="ifRoom" />
+
+</menu>

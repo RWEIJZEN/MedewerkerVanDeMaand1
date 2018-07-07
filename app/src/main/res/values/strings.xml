@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Medewerker Van De Maand</string>
+
+    <string name="button_butterflies">Knop vlinders</string>
+    <string name="button_donkey_ears">Knop ezelsoren</string>
+    <string name="button_hat">Knop hoed</string>
+    <string name="button_mustache">Knop snor</string>
+    <string name="button_nose_big">Knop grote neus</string>
+    <string name="button_save_compound_picture">Knop bewerkte afbeelding opslaan</string>
+    <string name="button_scary_smile">Knop griezelige lach</string>
+
+    <string name="content_description_imagebutton_delete_gadget">Verwijder gadget</string>
+    <string name="content_description_imagebutton_layer_down">Laag omlaag-knop</string>
+    <string name="content_description_imagebutton_layer_up">Laag omhoog-knop</string>
+    <string name="content_description_imagebutton_gadget_next">Selecteer volgend gadget</string>
+    <string name="content_description_imagebutton_gadget_previous">Selecteer vorig gadget</string>
+    <string name="content_description_imagebutton_hide_menu">Verberg gadget-menu</string>
+    <string name="content_description_imagebutton_message_cancel">Anulleren</string>
+    <string name="content_description_imagebutton_message_send">Bericht versturen</string>
+    <string name="content_description_imageview_1_main_select_picture">ImageView Kies foto</string>
+    <string name="content_description_imageview_2_edit_picture">ImageView Gagdet plaatsing</string>
+    <string name="content_description_imageview_3_share_picture">ImageView Bekijk voorbeeld </string>
+    <string name="content_description_imageView_moving_gadget">moving gadget</string>
+
+    <string name="edittext_subject">Onderwerp</string>
+
+    <string name="filename_cache">picture.jpg</string>
+    <string name="filename_default">Medewerker_van_de_Maand</string>
+    <string name="frame_bottom_center_text">Medewerker v/d maand</string>
+
+    <string name="intent_share_title">Deel Medewerker van de maand</string>
+
+    <string name="menu_camera_button_name">Camera</string>
+    <string name="menu_edit_button_name">Bewerken</string>
+    <string name="menu_gallery_button_name">Gallery</string>
+    <string name="menu_item_submit_change">Verstuur</string>
+    <string name="menu_save_compound_picture">Opslaan</string>
+    <string name="menu_select_share_methode_button_name">Deel methode</string>
+    <string name="menu_setup_gadgets">setup gadgets</string>
+    <string name="menu_share_button_name">Delen</string>
+    <string name="menu_title_view_1_select_picture">MvdM kies</string>
+    <string name="menu_title_view_2_edit_picture">MvdM bewerk</string>
+    <string name="menu_title_view_3_share_picture">MvdM deel</string>
+
+    <string name="hint_image_title">Titel afbeelding</string>
+    <string name="hint_body">Bericht inhoud</string>
+
+    <string name="label_action">Aktie</string>
+    <string name="label_gadget">Gadget</string>
+    <string name="label_image_title">Geef titel afbeelding</string>
+    <string name="label_layer">Laag</string>
+    <string name="label_menu">Menu</string>
+    <string name="label_select">Selecteer</string>
+    <string name="label_body">Bericht</string>
+    <string name="label_subject">Onderwerp</string>
+
+    <string name="share_body">Hierbij de Medewerker van de maand.</string>
+    <string name="share_subject">Medewerker Van De Maand</string>
+    <string name="toast_gadget_deleted">Gadget verwijderd</string>
+    <string name="toast_gadget_failed_to_move">Gadget kon niet verplaatst worden</string>
+    <string name="toast_gadget_last">Dit is het laatste gadget</string>
+    <string name="toast_gadget_moved_down">Gadget een laag naar de achtergrond</string>
+    <string name="toast_gadget_moved_up">Gadget een laag naar de voorgrond (Nu geselecteerd: %s)</string>
+    <string name="toast_gadget_next_selected">Volgende gadget geselecteerd</string>
+    <string name="toast_gadget_previous_selected">Vorige gadgets selecteerd</string>
+    <string name="toast_gadget_submitted">Gadget toegevoegd</string>
+
+    <string name="warning_invalid_image_title">Foutieve titel voor afbeelding</string>
+    <string name="warning_nothing_to_submit">Geen gadgets om toe te voegen</string>
+
+    <string-array name="month_abbreviation">
+        <item>JAN</item>
+        <item>FEB</item>
+        <item>MAA</item>
+        <item>APR</item>
+        <item>MEI</item>
+        <item>JUN</item>
+        <item>JUL</item>
+        <item>AUG</item>
+        <item>SEP</item>
+        <item>OKT</item>
+        <item>NOV</item>
+        <item>DEC</item>
+    </string-array>
+</resources>

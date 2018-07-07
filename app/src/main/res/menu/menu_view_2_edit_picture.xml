@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_item_submit_change"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/button_check_menu"
+        android:title="@string/menu_item_submit_change"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuitem_setup_gadgets"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/menu_setup_gadgets"
+        android:visible="true"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+        android:id="@+id/menuitem_save_compound_picture"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/menu_save_compound_picture"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuitem_share_compound_picture"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/menu_share_button_name"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+</menu>

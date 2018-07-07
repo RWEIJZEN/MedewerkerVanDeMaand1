@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:backgroundTint="@android:color/background_light"
+    android:foregroundTintMode="screen"
+    tools:ignore="Overdraw">
+
+    <ImageButton
+        android:id="@+id/imageButtonMessageSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/content_description_imagebutton_message_send"
+        android:onClick="ButtonClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMessageCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/content_description_imagebutton_message_cancel"
+        android:onClick="ButtonClick"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonMessageSend"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonMessageSend"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonMessageSend"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/label_subject"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonMessageSend"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonMessageSend" />
+
+    <EditText
+        android:id="@+id/editTextMessageSubject"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/background_light"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/edittext_subject"
+        android:inputType="textPersonName"
+        android:maxLength="150"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/label_body"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextMessageBody"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonMessageCancel"
+        app:layout_constraintStart_toStartOf="@+id/editTextMessageSubject" />
+
+    <EditText
+        android:id="@+id/editTextMessageBody"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:gravity="top|start"
+        android:hint="@string/hint_body"
+        android:inputType="textMultiLine"
+        android:maxLength="500"
+        android:maxLines="25"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonMessageCancel"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonMessageCancel" />
+
+</android.support.constraint.ConstraintLayout>
