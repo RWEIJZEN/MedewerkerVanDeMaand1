@@ -32,4 +32,10 @@ class CurrentYearAndMonth {
         String[] months     = resources.getStringArray(R.array.month_abbreviation);
         return months[this.month];
     }
+
+    public String getMonthFullText() {
+        Resources resources = this.context.getResources();
+        String[] months     = resources.getStringArray(R.array.month_text);
+        return months[this.month];
+    }
 }

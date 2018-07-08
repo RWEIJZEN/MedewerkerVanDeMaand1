@@ -26,7 +26,7 @@
 
     <string name="filename_cache">picture.jpg</string>
     <string name="filename_default">Medewerker_van_de_Maand</string>
-    <string name="frame_bottom_center_text">Medewerker v/d maand</string>
+    <string name="frame_bottom_center_text">Novi Medewerker van </string>
 
     <string name="intent_share_title">Deel Medewerker van de maand</string>
 
@@ -81,5 +81,19 @@
         <item>OKT</item>
         <item>NOV</item>
         <item>DEC</item>
+    </string-array>
+    <string-array name="month_text">
+        <item>januari</item>
+        <item>februari</item>
+        <item>maart</item>
+        <item>april</item>
+        <item>mei</item>
+        <item>juni</item>
+        <item>juli</item>
+        <item>augustus</item>
+        <item>september</item>
+        <item>oktober</item>
+        <item>noveber</item>
+        <item>december</item>
     </string-array>
 </resources>

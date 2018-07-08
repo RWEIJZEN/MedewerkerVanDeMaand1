@@ -123,7 +123,7 @@ class CompoundPicture {
             canvas = drawAllGadgetsOnCanvas(canvas, gadgets);
             canvas = drawFrameOnCanvas(canvas);
             canvas = drawTopLeftAndRightTextOnCanvas(canvas, currentYear, currentMonth);
-            canvas = drawBottomCenterText(canvas, context.getString(R.string.frame_bottom_center_text));
+            canvas = drawBottomCenterText(canvas, context.getString(R.string.frame_bottom_center_text) + " " + currentYearAndMonth.getMonthFullText());
         }
         return compoundPicture;
     }
